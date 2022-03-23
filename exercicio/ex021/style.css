@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(rgb(65, 65, 146) rgba(59, 126, 126, 0.87));
+}
+
+h1 {
+    background-color: lightseagreen;
+    font-size: 1.5em;
+
+}
+
+p {
+    font-size: 1.5em;
+    background-color: lightblue;
+    color: rgb(36, 34, 34);
+}
+
+div:hover {
+    color: lightgray;
+}
+
+div>p {
+    display: none;
+}
+
+div:hover>p {
+    display: block;
+    background-color: black;
+    color: red;
+}

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(40rad, rgb(255, 255, 255), rgb(90, 144, 165), rgb(19, 149, 189));
+    font-family: Arial, Helvetica, verdana, sans-serif;
+
+}
+
+main {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.356);
+    padding: 10px;
+}
+
+header {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 3px;
+    font-size: 1.5em;
+    margin: 15px;
+    text-align: center;
+
+
+
+}
+
+header>nav>a {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+header>nav>a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+main>article {
+    box-shadow: 1px 1px 8px 3px rgb(0 0 0 / 25%);
+    background-color: rgb(201, 201, 201);
+    padding: 10px 8px;
+    margin: 15px;
+    border-color: black;
+    border-style: groove;
+    margin: 20px 10px;
+    outline: 10px 15px;
+    
+
+
+}
+
+main>article>h2 {
+    width: auto;
+    text-align: center;
+    background-color: rgb(145, 127, 247);
+
+    padding: 10px;
+    margin: 5px 10px;
+
+
+}
+
+main>article>p {
+    text-align: justify;
+    height: auto;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.02em;
+
+
+}
+
+footer {
+    background-image: linear-gradient(90rad, gray, black);
+    padding: 6px 10px 6px 10px;
+    margin: 10px;
+    border-style: ridge;
+    border-color: #101211a1;
+    box-shadow: 1px 1px 8px 3px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+
+}
+
+footer>div>p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+
+
+}
+
+footer>p {
+    font-size: xx-small;
+    text-align: center;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+
+}
+
+footer>div>p {
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+}
+div#coracao{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: auto;
+    border-style: ridge;
+    border-color: darkgrey;
+    
+
+    
+}
