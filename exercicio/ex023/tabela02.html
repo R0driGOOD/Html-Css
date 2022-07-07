@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         .pos{
             text-align: center;
@@ -21,6 +22,13 @@
             padding: 10px;
             border: solid black 1px;
             
+        }
+        thead>tr>th{
+            top: -3px;
+            position: sticky;
+            background-color: gray;
+            padding: 3px;
+
         }
         thead{
             background-color: gray;
@@ -39,12 +47,15 @@
         #iii{
             text-align: left;
         }
-
+        
     </style>
 </head>
 <body>
     <h1>População brasileira por estados</h1>
     <table>
+        <colgroup>
+            <col class="abc">
+        </colgroup>
         <thead>
             <tr>
                 <th scope="col">Posição</th>
@@ -197,6 +208,7 @@
             </tr>
         </tfoot>
     </table>
+    
     
 </body>
 </html>
